@@ -1,0 +1,125 @@
+
+/* reset */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* main container */
+.container{
+  padding: 2rem;
+  height: fit-content;
+  margin: auto;
+  background: radial-gradient(circle, rgb(252, 168, 168), rgb(253, 253, 155), rgb(179, 255, 179));
+}
+
+/* all h1 tags */
+body .container article h2{
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid black;
+  
+}
+
+/* all p tags */
+body .container article p{
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* image and left side of conatainer */
+.container figure{
+  width: fit-content;
+  overflow: hidden;
+  text-align: center;
+  height: 100vh;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.container figure img{
+  height: 100%;
+  object-fit: cover;
+}
+
+/* article and right side of container */
+.container article{
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 100%;
+  background: linear-gradient(rgb(250, 148, 148), rgb(252, 252, 116), rgb(117, 253, 117));
+  margin-top: 1rem;
+  padding: 0.4rem;
+}
+
+.container article .name{
+  border: 2px solid black;
+  padding-bottom: 0.5rem;
+}
+
+.container article .name span{
+  display: block;
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container article .tagline{
+  border: 2px solid black;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.container article .tagline p{
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container article .desc{
+  border: 2px solid black;
+  margin-top: 2rem;
+}
+
+.container article .desc p{
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.container article .brewer{
+  border: 2px solid black;
+  margin-top: 2rem;
+}
+
+.container article .brewer p{
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.container article .contributer{
+  border: 2px solid black;
+  margin-top: 2rem;
+}
+
+.container article .contributer p{
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
